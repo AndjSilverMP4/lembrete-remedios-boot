@@ -1,0 +1,28 @@
+# Ignorar variáveis de ambiente
+.env
+
+# Ignorar histórico e memória de execução
+historico.json
+memoria.json
+contexto.json
+ultimos_comandos.json
+
+# Ignorar dados sensíveis ou temporários
+*.log
+*.sqlite3
+
+# Ignorar pastas de ambientes virtuais
+venv/
+env/
+.env/
+.venv/
+
+# Ignorar arquivos do VS Code
+.vscode/
+
+# Ignorar arquivos de cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
